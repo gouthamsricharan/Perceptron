@@ -17,7 +17,7 @@ Organized into modular Verilog files for clarity (core + memory).
 Includes dataset files for training/testing and simulation output (.vcd).
 
 🛠️ Project Structure
-.
+..
 ├── core_perceptron.v        # Perceptron core (learning + update logic)
 ├── core_perceptron_top.v    # Top-level module connecting core + memories
 ├── mem_label.v              # Memory for labels
@@ -30,6 +30,7 @@ Includes dataset files for training/testing and simulation output (.vcd).
 ├── z.txt                    # Labels for training data
 ├── perceptron.vcd           # Simulation waveform dump
 └── simv                     # Simulation executable (compiled output)
+
 
 🚀 How to Run
 Requirements
